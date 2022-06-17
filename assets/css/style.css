@@ -52,3 +52,49 @@ div a{
     right: 5%;
     bottom: -45%;
 }
+
+.u-img{
+
+}
+
+.slide_top{
+    animation: 1s ease-in 0s 1 slide_top;
+}
+
+.slide_left{
+    animation: 1s ease-in 0s 1 slide_left;
+}
+
+.slide_right{
+    animation: 700ms ease-in 0s 1 slide_right;
+}
+
+@keyframes slide_left{
+    0% {
+        left: -100%;
+    }
+
+    100%{
+        left: 0%;
+    }
+}
+
+@keyframes slide_top{
+    0% {
+        top: -15%;
+    }
+
+    100%{
+        top: 85%;
+    }
+}
+
+@keyframes slide_right{
+    0% {
+        right: 100%;
+    }
+
+    100%{
+        right: 0%;
+    }
+}
