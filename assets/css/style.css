@@ -15,11 +15,13 @@
     top: 35%;
     left: 50%;
     transform: translate(-50%, -35%);
+
+    animation: 900ms ease-in infinite hop;
 }
 
 .tap > p.text-uppercase{
     width: max-content;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     font-weight: bold;
@@ -30,7 +32,8 @@
 }
 
 .tap .fa-circle-arrow-down{
-    font-size: 5rem !important;
+    color: white;
+    font-size: 3rem !important;
 }
 
 .btn-custom{
@@ -90,6 +93,16 @@ div > a{
 
 .slide_right{
     animation: 700ms ease-in 0s 1 slide_right;
+}
+
+@keyframes hop{
+    from{
+        top:35%;
+    }
+
+    to{
+        top: 40%;
+    }
 }
 
 @keyframes slide_left{
