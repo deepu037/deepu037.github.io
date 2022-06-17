@@ -82,13 +82,69 @@ div > a{
     right: 5%;
     bottom: -45%;
 }
+div > a:hover{
+    color: #ffffff;
+}
 
+div.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parent p{
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    width: max-content;
+}
+
+.parent p:nth-child(2){
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.parent p:nth-child(3){
+    top:41%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.parent p:nth-child(4){
+    top:44%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.parent p:nth-child(5){
+    top:50%;
+    left: 50%;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: translateX(-50%);
+}
+
+.parent p:nth-child(6){
+    top:55%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    color: #9191E9;
+    font-size: 8rem;
+}
+
+
+/* animations */
 .slide_top{
     animation: 1s ease-in 0s 1 slide_top;
 }
 
 .slide_left{
     animation: 1s ease-in 0s 1 slide_left;
+}
+
+.slide_left50{
+    animation: 800ms ease-in 0s 1 slide_left50;
 }
 
 .slide_right{
@@ -112,6 +168,16 @@ div > a{
 
     100%{
         left: 0%;
+    }
+}
+
+@keyframes slide_left50{
+    0% {
+        left: -100%;
+    }
+
+    100%{
+        left: 50%;
     }
 }
 
