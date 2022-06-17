@@ -45,16 +45,12 @@ img{
     top: 85%;
 }
 
-div a{
+div > a{
     font-size: 6rem !important;
     position: absolute;
     color: white;
     right: 5%;
     bottom: -45%;
-}
-
-.u-img{
-
 }
 
 .slide_top{
