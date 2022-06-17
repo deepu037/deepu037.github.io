@@ -6,6 +6,33 @@
     height: 100vh;
 }
 
+.tap{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.tap > p.text-uppercase{
+    width: max-content;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+
+}
+
+.tap .fa-circle-arrow-down{
+    font-size: 5rem !important;
+}
+
 .btn-custom{
     text-decoration: none;
     color: white;
