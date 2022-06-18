@@ -75,14 +75,14 @@ img{
     top: 85%;
 }
 
-div > a{
+.divs > a{
     font-size: 6rem !important;
     position: absolute;
     color: white;
     right: 5%;
     bottom: -45%;
 }
-div > a:hover{
+.divs > a:hover{
     color: #ffffff;
 }
 
