@@ -1,5 +1,6 @@
 var image = document.getElementById('img')
 var article = document.getElementsByClassName('article')[0];
+var next = document.getElementsByClassName('fade')[0];
 // console.log(article.id);
 
 // image.onload = function(){
@@ -19,4 +20,8 @@ window.addEventListener('load', function(){
     else if(article.id == 'left'){
         article.className = 'article slide_left';
     }
+})
+
+article.addEventListener('animationend', ()=>{
+    next.className = 'fadeCus'
 })

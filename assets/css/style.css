@@ -135,6 +135,10 @@ div.card{
 
 
 /* animations */
+.fadeCus{
+    animation: 1s ease 0s 1 fadeout;
+}
+
 .slide_top{
     animation: 1s ease-in 0s 1 slide_top;
 }
@@ -198,5 +202,15 @@ div.card{
 
     100%{
         right: 0%;
+    }
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
     }
 }
